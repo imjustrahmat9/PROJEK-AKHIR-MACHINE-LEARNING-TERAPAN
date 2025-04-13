@@ -75,9 +75,19 @@ Dataset yang digunakan adalah MovieLens, terdiri dari *ratings*, *movies*, *tags
 4. Kedua metode dapat dikombinasikan untuk meningkatkan kualitas rekomendasi.
 
 ### Referensi
-- Stratoflow (Netflix & Spotify Algorithm)
-- CloudDevs (Amazon Recommendation)
-- Analytics Vidhya (SVD)
-- GeeksforGeeks & Towards Data Science (TF-IDF Filtering)
-- MovieLens Dataset (GroupLens)
+Stratoflow. (2017). How Netflix recommendation algorithm works. Stratoflow. Retrieved from https://stratoflow.com/how-netflix-recommendation-algorithm-work/
+
+Stratoflow. (2018). Spotify recommendation algorithm. Stratoflow. Retrieved from https://stratoflow.com/spotify-recommendation-algorithm/
+
+CloudDevs. (2021). Building personalized recommendation engines. Retrieved from https://clouddevs.com/go/building-personalized-recommendation-engines/
+
+Analytics Vidhya. (2020, December 17). Understanding singular value decomposition. Retrieved from https://www.analyticsvidhya.com/blog/2020/12/understanding-singular-value-decomposition/
+
+GeeksforGeeks. (2023). Content-based filtering recommender system using Python. Retrieved from https://www.geeksforgeeks.org/content-based-filtering-recommender-system-using-python/
+
+Towards Data Science. (2022). How to build a content-based recommendation system using TF-IDF. Retrieved from https://towardsdatascience.com/how-to-build-a-content-based-recommendation-system-using-tf-idf-b419a0424912
+
+GroupLens. (2021). MovieLens dataset. Retrieved from https://grouplens.org/datasets/movielens/
+
+
 
