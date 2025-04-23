@@ -1,10 +1,10 @@
-# SISTEM REKOMENDASI MOVIE - LAPORAN PROYEK MACHINE LEARNING TERAPAN
-Oleh Daffa Akifah Balqis
+# LAPORAN PROYEK MACHINE LEARNING TERAPAN
+Oleh Rahmat Hidayat
 
 ## Domain Proyek
-Dalam beberapa tahun terakhir, industri perfilman mengalami pertumbuhan yang pesat, ditandai dengan meningkatnya jumlah penonton bioskop serta produksi film yang semakin beragam. Setiap tahunnya, ratusan hingga ribuan film baru dengan berbagai alur cerita, genre, dan tema bermunculan, baik dari dalam negeri maupun luar negeri. Keberagaman ini memang memperkaya pilihan hiburan, namun di sisi lain juga menimbulkan tantangan tersendiri bagi para penonton [[1]](https://j-ptiik.ub.ac.id/index.php/j-ptiik/article/view/9163).
+Dalam beberapa tahun terakhir, industri film mengalami perkembangan pesat, terlihat dari peningkatan jumlah penonton bioskop dan keberagaman produksi film. Setiap tahunnya, muncul ratusan hingga ribuan film baru dengan berbagai alur cerita, genre, dan tema, baik dari dalam negeri maupun luar negeri. Keberagaman ini memang memberikan lebih banyak pilihan hiburan, namun di sisi lain, juga menimbulkan tantangan bagi para penonton [1].
 
-Di era digital saat ini, beberapa platform film memang telah menyediakan fitur pencarian dan filter berdasarkan genre atau popularitas. Namun, fitur tersebut belum tentu mampu memberikan rekomendasi yang benar-benar personal dan relevan dengan preferensi masing-masing individu. Setiap orang memiliki selera dan kecenderungan yang unik dalam memilih film, biasanya berdasarkan pengalaman menonton sebelumnya atau genre favorit. Oleh karena itu, dibutuhkan sebuah sistem yang mampu memahami preferensi pengguna dan memberikan rekomendasi film yang sesuai secara otomatis.
+Di era digital saat ini, beberapa platform film telah menyediakan fitur pencarian dan filter berdasarkan genre atau popularitas. Meskipun demikian, fitur tersebut belum tentu dapat memberikan rekomendasi yang benar-benar personal dan relevan dengan preferensi individu. Setiap orang memiliki selera dan kecenderungan yang berbeda dalam memilih film, biasanya didasarkan pada pengalaman menonton sebelumnya atau genre favorit. Oleh karena itu, diperlukan sebuah sistem yang dapat memahami preferensi pengguna dan memberikan rekomendasi film yang sesuai secara otomatis.
 
 ## Business Understanding
 ### Problem Statements
@@ -22,13 +22,12 @@ Solusi yang akan digunakan untuk permasalahan di atas adalah:
 
 ## Data Understanding
 ### Penjelasan singkat mengenai dataset
-Dataset yang digunakan dalam laporan ini adalah Movie Recommendation Data bersumber dari kaggle yang dapat diakses secara publik pada link: https://www.kaggle.com/datasets/rohan4050/movie-recommendation-data/code . Tidak keseluruhan dataset dari sumber digunakan, dataset yang digunakan yaitu movies, ratings, dan tags. Berikut akan dijelaskan masing-masing secara singkat singkat mengenai dataset. <br>
+Dataset yang digunakan dalam laporan ini adalah Movie Recommendation Data bersumber dari Movielens yang dapat diakses secara publik pada link berikut ini : https://grouplens.org/datasets/movielens/. Tidak keseluruhan dataset dari sumber digunakan, dataset yang digunakan yaitu movies, ratings, dan tags. Berikut akan dijelaskan masing-masing secara singkat singkat mengenai dataset. <br>
 #### Movies
 Memuat data yang terdiri dari: <br>
-- movieId: Memuat nilai Id dari film yang bernilai unik (masing-masing film memiliki id yang berbeda). Tipe data integer.
-- title: Memuat judul dari film. Tipe data object.
-- genres: Memuat genre dari film, nilai genre yang dimiliki masing-masing bisa lebih dari satu. Tipe data object
-Dengan keterangan, jumlah data movie :  9742
+- movie: Memuat nilai Id dari film yang bernilai unik (masing-masing film memiliki id yang berbeda). Tipe data integer.
+- rating: Memuat nilai terhadap suatu movie dari urutan (0, 1, 2, 3, 4).
+
 #### Ratings
 Memuat data yang terdiri dari: <br>
 - userId: Memuat nilai id unik dari masing-masing user
