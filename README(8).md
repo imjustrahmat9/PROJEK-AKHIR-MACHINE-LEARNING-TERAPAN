@@ -43,7 +43,8 @@ Memuat data yang terdiri dari: <br>
 
 ### Eksploratory Data Analysis (EDA)
 - Melihat distribusi data rating dengan histogram
-  ![image](https://github.com/user-attachments/assets/c5e69d4a-9d88-45aa-ae09-173a7db792de)
+![gambar](https://github.com/user-attachments/assets/a30d0bd4-857e-49ae-b924-b5351e83a1f2)
+
   <br>
   Dari histogram distribusi rating film, diketahui dua rating paling banyak berada di angka 4 diikuti rating 3 serta rating 5.
 
