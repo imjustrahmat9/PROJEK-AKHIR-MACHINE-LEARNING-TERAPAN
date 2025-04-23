@@ -164,28 +164,15 @@ Berikut adalah rumus precision [[4]](https://mail.ejournal.itn.ac.id/index.php/j
 ### Saran
 Untuk mengatasi kelemahan pada metode-metode yang telah diterapkan di atas, dapat digunakan metode hybrid filtering, yaitu dengan menggabungkan Collaborative Filtering (CF) dan Content-Based (CB). Pendekatan ini bertujuan menghasilkan rekomendasi item yang lebih sesuai dengan preferensi pengguna, sekaligus mengatasi masalah sparsity dan meningkatkan akurasi prediksi nilai [[5]](https://citee.ft.ugm.ac.id/download51.php?f=TI-5%20-%20Implementasi%20Metode%20Hybrid%20Filtering.pdf).
 
-## Refrensi
-Refrensi: <br>
-[[1]](https://j-ptiik.ub.ac.id/index.php/j-ptiik/article/view/9163) Fajriansyah, M., Adikara, P. P., & Widodo, A. W. (2021). Sistem Rekomendasi Film Menggunakan Content Based Filtering. Jurnal Pengembangan Teknologi Informasi Dan Ilmu Komputer, 5(6), 2188–2199. Diambil dari https://j-ptiik.ub.ac.id/index.php/j-ptiik/article/view/9163 <br>
-[[2]](https://scholar.google.com/scholar?hl=id&as_sdt=0%2C5&q=SISTEM+REKOMENDASI+LAPTOP+MENGGUNAKAN++COLLABORATIVE+FILTERING+DAN+CONTENT-BASED++FILTERING+&btnG=) Wijaya, A. E., & Alfian, D. (2018). Sistem rekomendasi laptop menggunakan collaborative filtering dan content-based filtering. Jurnal Computech & Bisnis, 12(1), 11–27. <br>
-[[3]](https://ejournal.almaata.ac.id/index.php/IJUBI/article/view/4274) Putri, N. M., Prasepitawan, M., & Untoro, M. C. (2024). Analisis model sistem rekomendasi kursus MOOC dengan metode collaborative filtering dan integrasi explainable AI. Indonesian Journal of Business Intelligence, *7*(1). https://ejournal.almaata.ac.id/index.php/IJUBI <br>
-[[4]](https://mail.ejournal.itn.ac.id/index.php/jati/article/view/13251/7349) Velamentosa, D., & Zuliarso, E. (2025). Sistem rekomendasi film menggunakan metode content-based filtering. JATI (Jurnal Mahasiswa Teknik Informatika), 9(2), 2918. <br>
-[[5]](https://citee.ft.ugm.ac.id/download51.php?f=TI-5%20-%20Implementasi%20Metode%20Hybrid%20Filtering.pdf) Lubis, Y. I., Napitupulu, D. J., & Dharma, A. S. (2020). Implementasi metode hybrid filtering (collaborative dan content-based) untuk sistem rekomendasi pariwisata [Implementation of hybrid filtering (collaborative and content-based) methods for the tourism recommendation system]. Prosiding CITEE 2020, Yogyakarta, 6-8 Oktober 2020
+## DAFTAR PUSTAKA
+<br>
+    Fajriansyah, M., Adikara, P. P., & Widodo, A. W. (2021). Sistem Rekomendasi Film Menggunakan Content Based Filtering. Jurnal Pengembangan Teknologi Informasi Dan Ilmu Komputer, 5(6), 2188–2199. Diambil dari https://j-ptiik.ub.ac.id/index.php/j-ptiik/article/view/9163
 
+    Lubis, Y. I., Napitupulu, D. J., & Dharma, A. S. (2020). Implementasi metode hybrid filtering (collaborative dan content-based) untuk sistem rekomendasi pariwisata. Prosiding CITEE 2020, Yogyakarta, 6-8 Oktober 2020. Diambil dari https://citee.ft.ugm.ac.id/download51.php?f=TI-5%20-%20Implementasi%20Metode%20Hybrid%20Filtering.pdf
 
+    Putri, N. M., Prasepitawan, M., & Untoro, M. C. (2024). Analisis model sistem rekomendasi kursus MOOC dengan metode collaborative filtering dan integrasi explainable AI. Indonesian Journal of Business Intelligence, 7(1). Diambil dari https://ejournal.almaata.ac.id/index.php/IJUBI
 
+    Velamentosa, D., & Zuliarso, E. (2025). Sistem rekomendasi film menggunakan metode content-based filtering. JATI (Jurnal Mahasiswa Teknik Informatika), 9(2), 2918. Diambil dari https://mail.ejournal.itn.ac.id/index.php/jati/article/view/13251/7349
 
-
-
-
-
-
-
-
-
-  
-
-
-
-
+    Wijaya, A. E., & Alfian, D. (2018). Sistem rekomendasi laptop menggunakan collaborative filtering dan content-based filtering. Jurnal Computech & Bisnis, 12(1), 11–27. Diambil dari https://scholar.google.com/scholar?hl=id&as_sdt=0%2C5&q=SISTEM+REKOMENDASI+LAPTOP+MENGGUNAKAN++COLLABORATIVE+FILTERING+DAN+CONTENT-BASED++FILTERING+&btnG=
 
