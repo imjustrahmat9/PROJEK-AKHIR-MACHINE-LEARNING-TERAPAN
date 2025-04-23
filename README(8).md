@@ -49,17 +49,20 @@ Memuat data yang terdiri dari: <br>
   Dari histogram distribusi rating film, diketahui dua rating paling banyak berada di angka 4 diikuti rating 3 serta rating 5.
 
 - Melihat visualisasi genre terpopuler dengan menggunakan bar chart
-  ![image](https://github.com/user-attachments/assets/cdb587c4-8fdc-4f87-80f7-cc6b5be64adc)
+![gambar](https://github.com/user-attachments/assets/5c2bc1c2-9920-45d5-a7c1-3a5fc8f1299c)
+
   <br>
   Visualisasi bar di atas menunjukkan 10 genre film terpopuler berdasarkan jumlah film yang dibuat. Genre Drama paling banyak, diikuti oleh Comedy, Thriller, dan Action. Genre seperti Fantasy dan Horror memiliki jumlah film yang lebih sedikit.
 
 - Melihat distribusi jumlah rating per user dengan histogram
-  ![image](https://github.com/user-attachments/assets/e14d5349-f994-41a7-a8fe-394c6e01e1ce)
+![gambar](https://github.com/user-attachments/assets/18704860-7470-442b-ae8f-0a2c658f495b)
+
   <br>
   Histogram di atas menunjukkan distribusi jumlah rating yang diberikan oleh setiap pengguna. Sebagian besar pengguna memberikan rating dalam jumlah yang sedikit, sedangkan hanya sedikit pengguna yang memberikan rating dalam jumlah sangat banyak.
 
 - Melihat hubungan jumlah rating dan rata-rata rating per film dengan menggunakan scatterplot
-  ![image](https://github.com/user-attachments/assets/a02959ea-4b9f-4ff5-9362-321076c2d2ce)
+![gambar](https://github.com/user-attachments/assets/108f3f5f-c8e7-4852-99c0-f804c72d9cf5)
+
   <br>
   Gambar di atas menunjukkan scatterplot yang menggambarkan hubungan antara jumlah rating yang diterima sebuah film dengan rata-rata ratingnya. Terlihat bahwa film dengan jumlah rating sedikit memiliki variasi rata-rata rating yang cukup besar, mulai dari sangat rendah hingga sangat tinggi. Sedangkan film dengan jumlah rating banyak cenderung memiliki rata-rata rating yang stabil di kisaran 3 sampai 4. Jadi, semakin banyak rating yang diterima, rata-rata rating film cenderung lebih konsisten.
 
