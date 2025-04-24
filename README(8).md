@@ -107,12 +107,11 @@ Gambar ini menunjukkan pola menarik antara jumlah rating dan nilai rata-rata rat
 ### TOP-N RECOMMENDATION
 - Untuk content-based filtering, menggunakan fungsi yang telah didasari dengan model untuk mencari judul film yang mirip dengan input pengguna dan memberikan rekomendasi film serupa. Jika judul tidak ditemukan, program menyarankan judul yang dekat agar pengguna bisa mencoba lagi.
   Berikut adalah simulasi penggunaan content-based filtering:
-  1. Misalkan menggunakan film 'Minions (2015) dan rekomendasi yang diminta 10: 
-     ![image](https://github.com/user-attachments/assets/3c2c2f3f-0b29-43d4-8119-ce174009e837) <br>
+  1. Misalkan menggunakan film Toy Story (1995) dan rekomendasi yang diminta 5: 
+![gambar](https://github.com/user-attachments/assets/5a25717b-9672-418f-94d1-6586850e95cf) <br>
   2. Berikut merupakan output yang dihasilkan berdasarkan permintaan di atas:
 ![gambar](https://github.com/user-attachments/assets/c6f69e39-5f94-4071-b9bd-87d77de45624)
 
-     
      Menampilkan 10 film rekomendasi berdasarkan nama film yang diinput.
      
 - Untuk collaborative filtering, menggunakan fungsi yang telah didasari dengan model yang meminta userId dan jumlah rekomendasi, lalu menampilkan daftar film yang direkomendasikan berdasarkan rating yang juga menghubungkan pengguna serupa dengan kesamaan dalam preferensi dan perilaku.
@@ -142,9 +141,9 @@ Metrik yang akan digunakan adalah precision. <br>
 Berikut adalah rumus precision [[4]](https://mail.ejournal.itn.ac.id/index.php/jati/article/view/13251/7349): <br>
 ![image](https://github.com/user-attachments/assets/2fe2e042-a079-440b-ace2-e7384cba37f2) <br>
 #### Evaluasi Content-Based
-- Hasil pencarian film yang mirip 'Toy Story (2017)':
+- Hasil pencarian film yang mirip 'Toy Story (1995)':
   ![gambar](https://github.com/user-attachments/assets/93be8743-380b-4a2a-a471-09a3db14c63b) <br>
-- Kemudian menggunakan cosine similiarity untuk melihat kesamaan film Toy Story (2017)' dengan film yang direkomendasikan: <br>
+- Kemudian menggunakan cosine similiarity untuk melihat kesamaan film Toy Story (1995)' dengan film yang direkomendasikan: <br>
 ![gambar](https://github.com/user-attachments/assets/afef4c62-772b-4f4a-9024-05c811d235a8)
 <br>
 - Kesimpulan didapatkan bahwa dengan penyesuaian terhadap genre dan cosine similiarity antara film yang dicari dan film rekomendasi serta genre yang cukup mirip dengan film yang sudah disukai user. Jadi, presisinya adalah 0.7 atau 70%
