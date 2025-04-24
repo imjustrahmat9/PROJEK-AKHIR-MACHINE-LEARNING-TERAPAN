@@ -119,7 +119,8 @@ Gambar ini menunjukkan pola menarik antara jumlah rating dan nilai rata-rata rat
   1. Misalkan input id yang digunakan berupa angka 431 dan jumlah rekomendasi yang diminta 10:
      ![image](https://github.com/user-attachments/assets/8f29494e-28bd-4d5f-a971-e9d1f04ac780) <br>
   2. Berikut merupakan output yang dihasilkan berdasarkan permintaan di atas:
-     ![image](https://github.com/user-attachments/assets/ddcc564e-aaa9-4023-abf9-a5b01f1b2528)
+  ![gambar](https://github.com/user-attachments/assets/1fceaee7-7990-4476-9edf-a9bbd7b53e7c)
+
 
      Menampilkan 10 film rekomendasi berdasarkan id pengguna yang diinput.
 
