@@ -116,12 +116,11 @@ Gambar ini menunjukkan pola menarik antara jumlah rating dan nilai rata-rata rat
      
 - Untuk collaborative filtering, menggunakan fungsi yang telah didasari dengan model yang meminta userId dan jumlah rekomendasi, lalu menampilkan daftar film yang direkomendasikan berdasarkan rating yang juga menghubungkan pengguna serupa dengan kesamaan dalam preferensi dan perilaku.
   Berikut adalah simulasi penggunaan collaborative filtering:
-  1. Misalkan input id yang digunakan berupa angka 431 dan jumlah rekomendasi yang diminta 10:
-     ![image](https://github.com/user-attachments/assets/8f29494e-28bd-4d5f-a971-e9d1f04ac780) <br>
+  1. Misalkan input id yang digunakan berupa angka 2 dan jumlah rekomendasi yang diminta 5:
+  ![gambar](https://github.com/user-attachments/assets/93be8743-380b-4a2a-a471-09a3db14c63b)
+<br>
   2. Berikut merupakan output yang dihasilkan berdasarkan permintaan di atas:
   ![gambar](https://github.com/user-attachments/assets/1fceaee7-7990-4476-9edf-a9bbd7b53e7c)
-
-
      Menampilkan 10 film rekomendasi berdasarkan id pengguna yang diinput.
 
 ## Evaluation
