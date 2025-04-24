@@ -110,16 +110,18 @@ Gambar ini menunjukkan pola menarik antara jumlah rating dan nilai rata-rata rat
   1. Misalkan menggunakan film 'Minions (2015) dan rekomendasi yang diminta 10: 
      ![image](https://github.com/user-attachments/assets/3c2c2f3f-0b29-43d4-8119-ce174009e837) <br>
   2. Berikut merupakan output yang dihasilkan berdasarkan permintaan di atas:
-     ![image](https://github.com/user-attachments/assets/6fb2506c-e893-405b-a5f4-505d3def3e5e)
+![gambar](https://github.com/user-attachments/assets/c6f69e39-5f94-4071-b9bd-87d77de45624)
+
      
      Menampilkan 10 film rekomendasi berdasarkan nama film yang diinput.
      
 - Untuk collaborative filtering, menggunakan fungsi yang telah didasari dengan model yang meminta userId dan jumlah rekomendasi, lalu menampilkan daftar film yang direkomendasikan berdasarkan rating yang juga menghubungkan pengguna serupa dengan kesamaan dalam preferensi dan perilaku.
   Berikut adalah simulasi penggunaan collaborative filtering:
   1. Misalkan input id yang digunakan berupa angka 2 dan jumlah rekomendasi yang diminta 5:
-  ![gambar](https://github.com/user-attachments/assets/93be8743-380b-4a2a-a471-09a3db14c63b)
+![gambar](https://github.com/user-attachments/assets/69b80cc4-5334-420c-9f3c-2d9669b0361d)
+
 <br>
-  2. Berikut merupakan output yang dihasilkan berdasarkan permintaan di atas:
+  3. Berikut merupakan output yang dihasilkan berdasarkan permintaan di atas:
   ![gambar](https://github.com/user-attachments/assets/1fceaee7-7990-4476-9edf-a9bbd7b53e7c)
      Menampilkan 10 film rekomendasi berdasarkan id pengguna yang diinput.
 
@@ -140,10 +142,11 @@ Metrik yang akan digunakan adalah precision. <br>
 Berikut adalah rumus precision [[4]](https://mail.ejournal.itn.ac.id/index.php/jati/article/view/13251/7349): <br>
 ![image](https://github.com/user-attachments/assets/2fe2e042-a079-440b-ace2-e7384cba37f2) <br>
 #### Evaluasi Content-Based
-- Hasil pencarian film yang mirip 'Inside Out (2015)':
-![image](https://github.com/user-attachments/assets/097bd53f-2852-4e8d-8e6e-5c594d66cebe) <br>
-- Kemudian menggunakan cosine similiarity untuk melihat kesamaan film 'Inside Out (2015)' dengan film yang direkomendasikan: <br>
-![image](https://github.com/user-attachments/assets/7910e0f4-68a7-4d44-bb23-9c2129c7af15) <br>
+- Hasil pencarian film yang mirip 'Toy Story (2017)':
+  ![gambar](https://github.com/user-attachments/assets/93be8743-380b-4a2a-a471-09a3db14c63b) <br>
+- Kemudian menggunakan cosine similiarity untuk melihat kesamaan film Toy Story (2017)' dengan film yang direkomendasikan: <br>
+![gambar](https://github.com/user-attachments/assets/afef4c62-772b-4f4a-9024-05c811d235a8)
+<br>
 - Kesimpulan didapatkan bahwa dengan penyesuaian terhadap genre dan cosine similiarity antara film yang dicari dan film rekomendasi serta genre yang cukup mirip dengan film yang sudah disukai user. Jadi, presisinya adalah 0.7 atau 70%
 
 ### Evaluasi Terhadap Business Understanding
