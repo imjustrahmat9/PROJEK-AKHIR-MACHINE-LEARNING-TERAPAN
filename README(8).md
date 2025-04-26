@@ -108,6 +108,7 @@ Gambar ini menunjukkan pola menarik antara jumlah rating dan nilai rata-rata rat
 
 <br>
   3. Berikut merupakan output yang dihasilkan berdasarkan permintaan di atas:
+  
   ![gambar](https://github.com/user-attachments/assets/1fceaee7-7990-4476-9edf-a9bbd7b53e7c)
      Menampilkan 10 film rekomendasi berdasarkan id pengguna yang diinput.
 
