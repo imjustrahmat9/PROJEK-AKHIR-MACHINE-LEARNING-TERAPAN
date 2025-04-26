@@ -52,7 +52,7 @@ Memuat data yang terdiri dari: <br>
 ![gambar](https://github.com/user-attachments/assets/5c2bc1c2-9920-45d5-a7c1-3a5fc8f1299c)
 
   <br>
-  Visualisasi bar di atas menunjukkan 10 genre film terpopuler berdasarkan jumlah film yang dibuat. Genre Drama paling banyak, diikuti oleh Comedy, Thriller, dan Action. Genre seperti Fantasy dan Horror memiliki jumlah film yang lebih sedikit.
+  Visualisasi bar di atas menunjukkan 5 genre film terpopuler berdasarkan jumlah film yang dibuat. Genre Drama paling banyak, diikuti oleh Comedy, Thriller, dan Action. Genre seperti Fantasy dan Horror memiliki jumlah film yang lebih sedikit.
 
 - Melihat distribusi jumlah rating per user dengan histogram
 ![gambar](https://github.com/user-attachments/assets/18704860-7470-442b-ae8f-0a2c658f495b)
@@ -98,6 +98,7 @@ Gambar ini menunjukkan pola menarik antara jumlah rating dan nilai rata-rata rat
 ![gambar](https://github.com/user-attachments/assets/5a25717b-9672-418f-94d1-6586850e95cf) <br>
   2. Berikut merupakan output yang dihasilkan berdasarkan permintaan di atas:
 ![gambar](https://github.com/user-attachments/assets/c6f69e39-5f94-4071-b9bd-87d77de45624)
+
 Menampilkan 5 film rekomendasi berdasarkan nama film yang diinput.
      
 - Untuk collaborative filtering, menggunakan fungsi yang telah didasari dengan model yang meminta userId dan jumlah rekomendasi, lalu menampilkan daftar film yang direkomendasikan berdasarkan rating yang juga menghubungkan pengguna serupa dengan kesamaan dalam preferensi dan perilaku.
