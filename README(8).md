@@ -106,7 +106,8 @@ Gambar ini menunjukkan pola menarik antara jumlah rating dan nilai rata-rata rat
   3. Berikut merupakan output yang dihasilkan berdasarkan permintaan di atas:
 
 ![gambar](https://github.com/user-attachments/assets/1fceaee7-7990-4476-9edf-a9bbd7b53e7c)
-     Menampilkan 5 film rekomendasi berdasarkan id pengguna yang diinput.
+Menampilkan 5 film rekomendasi berdasarkan id pengguna yang diinput.
+
 ## Evaluation
 ### Evaluasi Collaborative filtering dengan Plot History Training Model
 ![gambar](https://github.com/user-attachments/assets/cb071b7a-b603-4d40-bdf3-c3c81c771cf2)
