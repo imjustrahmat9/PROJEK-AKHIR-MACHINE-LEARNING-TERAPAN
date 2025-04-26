@@ -98,8 +98,7 @@ Gambar ini menunjukkan pola menarik antara jumlah rating dan nilai rata-rata rat
 ![gambar](https://github.com/user-attachments/assets/5a25717b-9672-418f-94d1-6586850e95cf) <br>
   2. Berikut merupakan output yang dihasilkan berdasarkan permintaan di atas:
 ![gambar](https://github.com/user-attachments/assets/c6f69e39-5f94-4071-b9bd-87d77de45624)
-
-     Menampilkan 10 film rekomendasi berdasarkan nama film yang diinput.
+Menampilkan 5 film rekomendasi berdasarkan nama film yang diinput.
      
 - Untuk collaborative filtering, menggunakan fungsi yang telah didasari dengan model yang meminta userId dan jumlah rekomendasi, lalu menampilkan daftar film yang direkomendasikan berdasarkan rating yang juga menghubungkan pengguna serupa dengan kesamaan dalam preferensi dan perilaku.
   Berikut adalah simulasi penggunaan collaborative filtering:
@@ -108,10 +107,9 @@ Gambar ini menunjukkan pola menarik antara jumlah rating dan nilai rata-rata rat
 
 <br>
   3. Berikut merupakan output yang dihasilkan berdasarkan permintaan di atas:
-  
-  ![gambar](https://github.com/user-attachments/assets/1fceaee7-7990-4476-9edf-a9bbd7b53e7c)
-     Menampilkan 10 film rekomendasi berdasarkan id pengguna yang diinput.
 
+![gambar](https://github.com/user-attachments/assets/1fceaee7-7990-4476-9edf-a9bbd7b53e7c)
+     Menampilkan 5 film rekomendasi berdasarkan id pengguna yang diinput.
 ## Evaluation
 ### Evaluasi Collaborative filtering dengan Plot History Training Model
 ![gambar](https://github.com/user-attachments/assets/cb071b7a-b603-4d40-bdf3-c3c81c771cf2)
