@@ -103,10 +103,11 @@ Gambar ini menunjukkan pola menarik antara jumlah rating dan nilai rata-rata rat
   1. Misalkan input id yang digunakan berupa angka 2 dan jumlah rekomendasi yang diminta 5:
 ![gambar](https://github.com/user-attachments/assets/69b80cc4-5334-420c-9f3c-2d9669b0361d)
 <br>
-  3. Berikut merupakan output yang dihasilkan berdasarkan permintaan di atas:
+
+3. Berikut merupakan output yang dihasilkan berdasarkan permintaan di atas:
 
 ![gambar](https://github.com/user-attachments/assets/1fceaee7-7990-4476-9edf-a9bbd7b53e7c)
-Menampilkan 5 film rekomendasi berdasarkan id pengguna yang diinput.
+     Menampilkan 5 film rekomendasi berdasarkan id pengguna yang diinput.
 
 ## Evaluation
 ### Evaluasi Collaborative filtering dengan Plot History Training Model
