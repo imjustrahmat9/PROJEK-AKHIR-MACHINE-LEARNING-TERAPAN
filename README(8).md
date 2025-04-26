@@ -115,7 +115,8 @@ Gambar ini menunjukkan pola menarik antara jumlah rating dan nilai rata-rata rat
 ### Evaluasi Collaborative filtering dengan Plot History Training Model
 ![gambar](https://github.com/user-attachments/assets/cb071b7a-b603-4d40-bdf3-c3c81c771cf2)
  <br>
-Evaluasi model collaborative filtering dilakukan dengan menggunakan plot history training selama 100 epoch. Dari hasil evaluasi, diperoleh nilai Mean Absolute Error (MAE) sebesar 0.6668, yang menjadi dasar untuk menilai performa model. Nilai MAE ini menunjukkan rata-rata kesalahan prediksi yang dihasilkan model pada data pelatihan dan validasi. Grafik yang dihasilkan dari proses training memantau perubahan error seiring waktu, dan berdasarkan observasi, model menghasilkan error akhir sekitar 0.19 pada data pelatihan dan 0.20 pada data validasi dalam bentuk Root Mean Square Error (RMSE). Perbedaan yang kecil antara error pada data pelatihan dan validasi menunjukkan bahwa model tidak mengalami overfitting, serta mampu melakukan prediksi dengan tingkat akurasi yang cukup baik. Untuk menghitung RMSE, digunakan rumus standar yang melibatkan akar kuadrat dari rata-rata selisih kuadrat antara nilai prediksi dan nilai aktual.
+Nilai MAE sebesar 0.6668 menunjukkan bahwa rata-rata kesalahan prediksi model adalah 0.6668 satuan. Kesamaan nilai MAE pada data pelatihan dan validasi menandakan performa model stabil dan tidak overfitting. Secara umum, model memiliki akurasi yang cukup baik, tergantung pada skala data yang digunakan.
+
 Berikut adalah rumus RMSE yang digunakan dalam perhitungan [[3]](https://ejournal.almaata.ac.id/index.php/IJUBI/article/view/4274): <br>
 ![image](https://github.com/user-attachments/assets/0f516332-89f5-4bd6-a0c8-511505e2d1bd)
 <br>
