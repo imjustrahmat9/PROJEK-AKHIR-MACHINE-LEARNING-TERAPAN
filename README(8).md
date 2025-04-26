@@ -85,24 +85,11 @@ Gambar ini menunjukkan pola menarik antara jumlah rating dan nilai rata-rata rat
 - **Kelebihan Content-based filtering yaitu** mudah dijelaskan karena dapat menunjukkan alasan di balik rekomendasi. Selain itu, sistem ini mampu merekomendasikan item yang belum pernah dinilai oleh pengguna lain [2]. <br>
 - **Kekurangan Content-based filtering yaitu** membutuhkan profil pengguna yang berisi minat dan ketertarikan, sehingga kurang efektif untuk pengguna baru yang belum memiliki riwayat aktivitas (cold start problem) [2].
 
-#### Penjelasan tahapan yang digunakan
-- Menggunakan metode TF-IDF (Term Frequency-Inverse Document Frequency) untuk mengubah kolom content (gabungan judul, genre, dan tag film) menjadi matriks fitur numerik yang merepresentasikan pentingnya kata dalam setiap film. <br>
-- Menghitung matriks kemiripan kosinus antara semua film, yang mengukur tingkat kemiripan konten satu film dengan film lainnya berdasarkan fitur TF-IDF. Matriks kemiripan kosinus ini digunakan sebagai dasar dalam sistem rekomendasi berbasis konten. <br>
-- Membuat fungsi  yang akan memeriksa keberadaan judul film dalam dataset, kemudian menghitung dan mengurutkan skor kemiripan kosinus dengan film lain untuk mengembalikan daftar rekomendasi film paling mirip berdasarkan nilai tertinggi (top_n). <br>
-
 ### Modeling dengan Collaborative Filtering
 #### Penjelasan singkat mengenai model
 - **Collaborative filtering adalah** pendekatan di mana pendapat pengguna lain digunakan untuk memprediksi item yang mungkin disukai atau diminati oleh pengguna tertentu [[2]](https://scholar.google.com/scholar?hl=id&as_sdt=0%2C5&q=SISTEM+REKOMENDASI+LAPTOP+MENGGUNAKAN++COLLABORATIVE+FILTERING+DAN+CONTENT-BASED++FILTERING+&btnG=). <br>
 - **Kelebihan dari user-based collaborative filtering adalah** kemampuannya menghasilkan rekomendasi berkualitas [2]. <br>
 - **Kekurangan collaborative filtering adalah** kompleksitas perhitungan meningkat seiring bertambahnya jumlah pengguna, yang dapat memperlambat proses rekomendasi [2]. <br>
-
-#### Penjelasan tahapan yang digunakan
-- Mengonversi ID asli pengguna dan film menjadi indeks numerik berurutan, lalu menambahkan kolom indeks ke data rating untuk persiapan model.
-- Menentukan total pengguna dan film serta rentang nilai rating untuk memahami skala data dan mengatur parameter model.
-- Mengacak data rating untuk menghindari bias dan menormalisasi nilai rating ke rentang 0–1.
-- Membagi data menjadi 80% pelatihan dan 20% validasi, memisahkan fitur (user dan movie) dan target (rating).
-- Membangun model RecommenderNet yang menggunakan embedding untuk merepresentasikan pengguna dan film, menghitung interaksi dengan dot product dan bias, serta menghasilkan prediksi rating antara 0 dan 1 menggunakan fungsi sigmoid.
-- Menginisialisasi dan mengompilasi model dengan loss function binary crossentropy, optimizer Adam (learning rate 0.001), dan metrik RMSE untuk evaluasi performa.
 
 ### TOP-N RECOMMENDATION
 - Untuk content-based filtering, menggunakan fungsi yang telah didasari dengan model untuk mencari judul film yang mirip dengan input pengguna dan memberikan rekomendasi film serupa. Jika judul tidak ditemukan, program menyarankan judul yang dekat agar pengguna bisa mencoba lagi.
