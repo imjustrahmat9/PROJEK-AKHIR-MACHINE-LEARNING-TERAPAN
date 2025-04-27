@@ -147,7 +147,8 @@ Berikut adalah rumus precision [[4]](https://mail.ejournal.itn.ac.id/index.php/j
   - Efisiensi Pencarian Film: Sistem mampu mempercepat proses pencarian film yang sesuai dengan selera pengguna, sehingga mengurangi waktu dan kebingungan dalam memilih film. <br>
   - Relevansi Rekomendasi: Dengan memanfaatkan informasi item dan preferensi pengguna lain, sistem memberikan rekomendasi yang lebih akurat dan personal, meningkatkan kepuasan pengguna dalam memilih film.
 
-**KESIMPULAN **
+## KESIMPULAN
+
 Hasil Evaluasi menggunakan precision dan recall ini menunjukkan bahwa model Content-Based Filtering sangat efektif dalam merekomendasikan film dengan genre yang sesuai. Hal ini mengindikasikan bahwa pendekatan yang digunakan, yaitu dengan menghitung kemiripan berdasarkan TF-IDF genre, berhasil menangkap hubungan yang relevan di antara film-film dalam dataset. Model sistem rekomendasi dikembangkan dengan dua pendekatan: content-based filtering dan collaborative filtering. Pada pendekatan content-based, sistem menggunakan kesamaan genre untuk merekomendasikan film yang relevan. Contohnya, ketika pengguna memilih "Toy Story (1995)", sistem berhasil merekomendasikan lima film lain yang memiliki genre serupa, seperti "Antz (1998)" dan "Toy Story 2 (1999)", dengan hasil evaluasi precision dan recall sebesar 1.00, menunjukkan bahwa seluruh rekomendasi relevan terhadap preferensi genre pengguna.
 
 Sementara itu, pada pendekatan collaborative filtering menggunakan algoritma SVD, evaluasi dilakukan dengan metrik RMSE, MAE, dan cross-validation. Hasil menunjukkan bahwa model mampu memprediksi rating dengan baik, dengan nilai RMSE sebesar 0.8727 dan MAE sekitar 0.6706. Rata-rata RMSE dari cross-validation sebesar 0.8729 dengan standar deviasi rendah (0.0067), menandakan bahwa model bekerja konsisten pada berbagai subset data. Kedua pendekatan ini menunjukkan performa yang baik dalam memberikan rekomendasi yang akurat dan relevan.
