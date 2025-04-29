@@ -108,44 +108,32 @@ Gambar ini menunjukkan pola menarik antara jumlah rating dan nilai rata-rata rat
 ![gambar](https://github.com/user-attachments/assets/1fceaee7-7990-4476-9edf-a9bbd7b53e7c)
 
 ## Evaluation
-### Evaluasi Collaborative filtering dengan Plot History Training Model
-![gambar](https://github.com/user-attachments/assets/cb071b7a-b603-4d40-bdf3-c3c81c771cf2)
- <br>
-Nilai MAE sebesar 0.6668 menunjukkan bahwa rata-rata kesalahan prediksi model adalah 0.6668 satuan. Kesamaan nilai MAE pada data pelatihan dan validasi menandakan performa model stabil dan tidak overfitting. Secara umum, model memiliki akurasi yang cukup baik, tergantung pada skala data yang digunakan.
+Evaluasi model dilakukan untuk menilai sejauh mana model SVD (Singular Value Decomposition) mampu memprediksi rating pengguna terhadap item yang belum dilihat. Evaluasi dilakukan menggunakan dua pendekatan: evaluasi terhadap test set dan k-fold cross-validation, dengan metrik utama RMSE (Root Mean Squared Error) dan MAE (Mean Absolute Error).
+1. Evaluasi terhadap Test Set
 
-Berikut adalah rumus RMSE yang digunakan dalam perhitungan [[3]](https://ejournal.almaata.ac.id/index.php/IJUBI/article/view/4274): <br>
-![image](https://github.com/user-attachments/assets/0f516332-89f5-4bd6-a0c8-511505e2d1bd)
-<br>
-### Evaluasi Sistem Rekomendasi berdasarkan Content-Based Filtering dengan Precision
-Untuk menilai kinerja sistem rekomendasi, dapat dilakukan evaluasi dengan beberapa metrik berikut [[4]](https://mail.ejournal.itn.ac.id/index.php/jati/article/view/13251/7349): <br>
-a. Precision: Menghitung persentase rekomendasi film yang sesuai dengan preferensi pengguna. <br>
-b. Recall: Mengukur kemampuan sistem dalam merekomendasikan film yang relevan dari seluruh film yang tersedia. <br>
-c. F1-Score: Gabungan antara precision dan recall yang memberikan evaluasi seimbang atas akurasi dan kelengkapan rekomendasi. <br>
-Metrik yang akan digunakan adalah precision. <br>
-Berikut adalah rumus precision [[4]](https://mail.ejournal.itn.ac.id/index.php/jati/article/view/13251/7349): <br>
-![image](https://github.com/user-attachments/assets/2fe2e042-a079-440b-ace2-e7384cba37f2) <br>
-#### Evaluasi Content-Based
-- Hasil pencarian film yang mirip 'Toy Story (1995)':
-  ![gambar](https://github.com/user-attachments/assets/93be8743-380b-4a2a-a471-09a3db14c63b) <br>
-- Kemudian menggunakan cosine similiarity untuk melihat kesamaan film Toy Story (1995)' dengan film yang direkomendasikan: <br>
-![gambar](https://github.com/user-attachments/assets/afef4c62-772b-4f4a-9024-05c811d235a8)
-<br>
-- Kesimpulan didapatkan bahwa dengan penyesuaian terhadap genre dan cosine similiarity antara film yang dicari dan film rekomendasi serta genre yang cukup mirip dengan film yang sudah disukai user. Jadi, presisinya adalah 0.7 atau 70%
+Model diuji terhadap data test set, dan hasil evaluasi menunjukkan nilai:
 
-### Evaluasi Terhadap Business Understanding
-- Menjawab Problem Statement
-  <br>
-  Sistem yang dikembangkan cukup berhasil menjawab permasalahan dengan memberikan rekomendasi film yang sesuai dengan preferensi pengguna berdasarkan data perilaku dan kesamaan preferensi pengguna lain. Dengan menggunakan metode Content Based Filtering dan Collaborative Filtering, sistem mampu merekomendasikan film yang relevan sehingga memudahkan pengguna dalam memilih film yang layak ditonton tanpa kebingungan.
+    RMSE: 0.8660
+    MAE: 0.6712
 
-- Mencapai Goals
-  <br>
-  Sistem rekomendasi yang dibangun berhasil mencapai tujuan utama, yaitu memberikan saran film yang cukup relevan sesuai dengan preferensi pengguna.  Content Based Filtering dan Collaborative Filtering membantu untuk memberikan hasil dalam menyajikan rekomendasi film.
-  
-- Dampak dari Solution Statement
-  <br>
-  Penggunaan dua pendekatan dalam sistem rekomendasi yaitu Content Based Filtering dan Collaborative Filtering memberikan dampak positif yang signifikan, antara lain: <br>
-  - Efisiensi Pencarian Film: Sistem mampu mempercepat proses pencarian film yang sesuai dengan selera pengguna, sehingga mengurangi waktu dan kebingungan dalam memilih film. <br>
-  - Relevansi Rekomendasi: Dengan memanfaatkan informasi item dan preferensi pengguna lain, sistem memberikan rekomendasi yang lebih akurat dan personal, meningkatkan kepuasan pengguna dalam memilih film.
+Nilai RMSE yang berada di bawah 1 menunjukkan bahwa kesalahan prediksi relatif kecil, menandakan bahwa prediksi rating yang dilakukan oleh model cukup akurat terhadap data aktual. MAE yang rendah juga menunjukkan bahwa deviasi absolut rata-rata antara prediksi dan nilai aktual tergolong kecil.
+
+    Analisis:
+    Nilai RMSE yang mendekati nilai MAE menunjukkan bahwa tidak ada kesalahan besar (outlier error) yang mendominasi performa model. Artinya, prediksi cenderung stabil dan tidak terlalu dipengaruhi oleh kesalahan ekstrem.
+
+2. Evaluasi dengan 5-Fold Cross-Validation
+
+Untuk memastikan performa model tidak hanya baik pada satu subset data, dilakukan evaluasi dengan cross-validation sebanyak 5 fold. Hasilnya dirangkum dalam tabel berikut:
+| Fold | RMSE   | MAE    |
+|------|--------|--------|
+| 1    | 0.8718 | 0.6712 |
+| 2    | 0.8697 | 0.6708 |
+| 3    | 0.8808 | 0.6760 |
+| 4    | 0.8731 | 0.6706 |
+| 5    | 0.8740 | 0.6714 |
+| **Rata-rata** | **0.8739** | **0.6720** |
+| **Standar Deviasi** | **0.0038** | **0.0020** |
+
 
 ## KESIMPULAN
 
