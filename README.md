@@ -134,8 +134,19 @@ Untuk memastikan performa model tidak hanya baik pada satu subset data, dilakuka
 | **Rata-rata** | **0.8739** | **0.6720** |
 | **Standar Deviasi** | **0.0038** | **0.0020** |
 
+Analisis:
 
-## KESIMPULAN
+    Nilai rata-rata RMSE dari cross-validation adalah 0.8739, hanya sedikit lebih tinggi dibanding evaluasi pada test set (0.8660). Hal ini mengindikasikan bahwa model tidak overfit terhadap data pelatihan.
+
+    Standar deviasi yang kecil (0.0038) menunjukkan bahwa model memberikan performa yang konsisten di semua lipatan (fold) data, sehingga stabilitas model sangat baik.
+
+    MAE yang juga stabil di semua fold menguatkan bahwa model memiliki tingkat kesalahan prediksi yang bisa diterima secara praktis.
+**
+Insight Evaluasi**
+
+Model SVD terbukti memberikan performa yang akurat dan stabil untuk sistem rekomendasi berbasis kolaboratif. Dengan nilai RMSE dan MAE yang rendah serta konsistensi antar fold, model ini layak untuk diterapkan pada sistem rekomendasi nyata. Hasil evaluasi juga menunjukkan bahwa pendekatan yang digunakan telah sesuai dengan prinsip-prinsip validasi model yang baik, seperti menghindari overfitting dan memastikan generalisasi.
+
+## RANGKUMAN 
 
 Hasil Evaluasi menggunakan precision dan recall ini menunjukkan bahwa model Content-Based Filtering sangat efektif dalam merekomendasikan film dengan genre yang sesuai. Hal ini mengindikasikan bahwa pendekatan yang digunakan, yaitu dengan menghitung kemiripan berdasarkan TF-IDF genre, berhasil menangkap hubungan yang relevan di antara film-film dalam dataset. Model sistem rekomendasi dikembangkan dengan dua pendekatan: content-based filtering dan collaborative filtering. Pada pendekatan content-based, sistem menggunakan kesamaan genre untuk merekomendasikan film yang relevan. Contohnya, ketika pengguna memilih "Toy Story (1995)", sistem berhasil merekomendasikan lima film lain yang memiliki genre serupa, seperti "Antz (1998)" dan "Toy Story 2 (1999)", dengan hasil evaluasi precision dan recall sebesar 1.00, menunjukkan bahwa seluruh rekomendasi relevan terhadap preferensi genre pengguna.
 
