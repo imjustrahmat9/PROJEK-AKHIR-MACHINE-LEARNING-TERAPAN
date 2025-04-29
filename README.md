@@ -108,7 +108,7 @@ Gambar ini menunjukkan pola menarik antara jumlah rating dan nilai rata-rata rat
 ![gambar](https://github.com/user-attachments/assets/1fceaee7-7990-4476-9edf-a9bbd7b53e7c)
 
 ## Evaluation
-Evaluasi model dilakukan untuk menilai sejauh mana model SVD (Singular Value Decomposition) mampu memprediksi rating pengguna terhadap item yang belum dilihat. Evaluasi dilakukan menggunakan dua pendekatan: evaluasi terhadap test set dan k-fold cross-validation, dengan metrik utama RMSE (Root Mean Squared Error) dan MAE (Mean Absolute Error). Berikut gambar : 
+Evaluasi model dilakukan untuk menilai sejauh mana model SVD (Singular Value Decomposition) mampu memprediksi rating pengguna terhadap item yang belum dilihat. Evaluasi dilakukan menggunakan dua pendekatan: evaluasi terhadap test set dan k-fold cross-validation, dengan metrik utama RMSE (Root Mean Squared Error) dan MAE (Mean Absolute Error). Berikut gambar collaborative filtering : 
 <img width="809" alt="dos-93dfbee86d454b6cd0f1faa860fea87c20250429044636" src="https://github.com/user-attachments/assets/0aa994c7-f312-41df-8f8c-9b4fb8ea7f50" />
 
 1. Evaluasi terhadap Test Set
